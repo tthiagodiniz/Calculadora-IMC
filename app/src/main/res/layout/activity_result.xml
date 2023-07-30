@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+    
+    <TextView
+        android:text="Seu IMC é: "
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Hello Word"
+        android:textSize="38dp"
+        />
+    
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:text="Classificação" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTE A TABELA ABAIXO "
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IMC menor que 18.5 >>>>>>>> Abaixo do Peso"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IMC entre 18.6 e 24.9 >>>>>>>> Peso Normal"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IMC entre 25.0 e 29.9 >>>>>>>> Sobrepeso"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IMC entre 30.0 e 39.9 >>>>>>>> Obesidade"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="IMC igual ou superior à 40.0 >>>>>>>> Obesidade Grave"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
