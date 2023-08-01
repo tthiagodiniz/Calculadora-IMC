@@ -27,7 +27,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Melhorar estilização do app
 
 ## Author
-Thiago Henrique Diniz (me siga no [Linkedin](www.linkedin.com/in/thiago-henrique-diniz-90190952))
+Thiago Henrique Diniz (me siga no [Linkedin](www.linkedin.com/in/thiagodiniz3010))
 
 ## License
 ```
